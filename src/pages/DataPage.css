@@ -1,0 +1,18 @@
+.table {
+  display: grid;
+  grid-template-rows: auto;
+  border: 5px solid rgb(151, 38, 38);
+  margin: 20px;
+  padding: 50px;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-flow: column;
+  margin: 20px;
+}
+
+.center {
+  text-align: center;
+}
